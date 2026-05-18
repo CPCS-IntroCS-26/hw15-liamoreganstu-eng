@@ -2,8 +2,8 @@ import pgzrun
 
 # Variables
 TITLE = "Platform Game"
-WIDTH = 1800
-HEIGHT = 1000
+WIDTH = 980
+HEIGHT = 500
 player = Rect((100, 400), (30, 30))
 velocity_y = 1
 gravity = .6
@@ -11,7 +11,6 @@ on_ground = False
 lava = Rect((350, 450), (100, 20))
 platforms = [
     Rect((0, 470), (980, 30)),
-    Rect((1300, 470), (1800, 30)),
     Rect((200, 380), (150, 20)),
     Rect((450, 300), (150, 20)),
     Rect((650, 220), (100, 20)),
